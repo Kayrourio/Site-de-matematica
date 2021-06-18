@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+}
+div ul li a{
+    text-decoration: none;
+}
+
+header div a{
+    color: #959595;
+    text-decoration: none;
+}
+.menu_superior,.menu_superior2{
+    text-align: left;
+    font-size: 90px;
+    color: #959595;
+    padding-bottom: 100px ;
+    padding-top: 45px;
+    padding-left: 40px;
+	background-color: #232323;
+    margin: 0px;
+    transition: 0.5 all;
+    text-decoration: none;
+}
+header div a:hover{
+    color: #999999;
+    text-decoration: underline;
+}
+.explicacao{
+    background-color: #b40000;
+    padding-bottom:40px;
+    padding-top: 30px;
+    margin: 0px;
+    padding-left: 200px;
+    font-size: 30px;
+    text-align: left;
+}
+.explicacao_das_materias{
+    border-color: #b40000;
+    border-width: 32px;
+    border-style: solid;  
+    background-color: #ffffff;    
+    margin: 0;
+    padding: 30px;
+    font-size: 23px;
+    text-align: center;
+}
+
+.exercicios{
+    border-color: #b40000;
+    border-width: 32px;
+    border-radius:15px;
+    border-style: solid;  
+    background-color: #cac8c8;  
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    
+}
+.primeiro_quadrado {
+    margin-left: 230px;
+}
+main quadrados ul li{ 
+    color: #999999;
+    border-color: #272727;
+    background: #353535;
+    border-width: 5px;
+    border-radius: 7px;
+    border-style: solid;
+    text-align-last: center;
+    width: 250px;
+    height: 70px;
+    font-size: 25px;
+    margin-right: 90px;  
+    margin-bottom: 70px;  
+    transition: 0.5s all
+}
+main quadrados ul li:hover{
+    box-shadow: 50px 15px 8px rgba(90, 90, 90, 0.3);
+}
+main quadrados ul{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type:none;
+}
+
+.materias{
+    border-color: #b40000;
+    border-width: 16px;
+    border-radius: 10px;
+    border-style: solid;
+    margin-top: 25px;
+    margin-bottom: 22px;
+    padding-bottom:30px;
+    padding-top: 15px;
+    padding-left: 50px;
+    font-size: 20px;
+    text-decoration: bold;
+}
+main div ul li{ 
+    color: #999999;
+    border-color: #272727;
+    background: #353535;
+    border-width: 5px;
+    border-radius: 7px;
+    border-style: solid;
+    text-align-last: center;
+    width: 14%;
+    height:100px;
+    font-size:30px;
+    margin-right: 90px;    
+    transition: 0.5s all
+}
+main div ul li:hover{
+    box-shadow: 50px 15px 8px rgba(90, 90, 90, 0.3);
+}
+main div ul{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style-type:none;
+}
+.footer{
+    background: #232323;
+	font-size: 20px;
+	color: #ffffff;
+	padding-bottom: 50px;
+
+}
+.palavra_contato{
+    display: block;
+    padding-left: 30px;
+    font-size: 40px;
+}
+footer ul{
+	list-style-type:none;   
+}
+footer ul li{
+    padding-bottom: 9px;
+}
+.contato{
+    padding-top: 12px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+@media screen and (max-width: 480px){
+    .menu_superior, .menu_superior2 .explicacao, .explicacao_das_materias, .materias, .footer, .exercicios, .contato{
+        font-size: 15px;
+        width: auto; 
+    }
+}
