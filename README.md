@@ -1,2 +1,4 @@
 # Site-de-matematica
- Este é um site para estudar matemática, ainda não está finalizado
+ Este é um site para ajudar estudantes a estudar matemática, mas ainda não está finalizado.
+
+
